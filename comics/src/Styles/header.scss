@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    background-color: #35478C;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    &_tb{
+        color: #000;
+    }
+    a{
+        text-decoration: none;
+    }
+    &_logo{
+    
+        i{
+            color: white;
+        }
+    }
+    &_menu{
+        ul{
+            display: flex;
+            li{
+                
+                a{
+                    color: white;
+                    font-size: 20px;
+                }
+                list-style-type: none;
+                &:hover{
+                    color: #F2993F;
+                }
+            }
+        }
+    }
+}
